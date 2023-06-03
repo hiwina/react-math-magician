@@ -12,7 +12,7 @@
   color: white;
 }
 
-.calculator-app {
+.buttons{
   display: -ms-grid;
   display: grid;
   -ms-grid-template-columns: auto auto auto auto;
