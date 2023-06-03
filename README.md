@@ -125,7 +125,7 @@ Example command:
 Clone this repository to your desired folder:
 
   cd my-folder
-  git clone git@github.com:deniodev/Math-Magicians.git
+  git clone git@github.com:hiwina/react-math-magician.git
 
 
 ### Install
@@ -161,7 +161,7 @@ You can deploy this project using:
 
 👤 **Hiwot Bayissa**
 
-- GitHub: [@githubhandle](https://github.com/hiwina)
+- GitHub: [@hiwina](https://github.com/hiwina)
 
 
 
