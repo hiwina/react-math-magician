@@ -92,6 +92,21 @@ button {
   text-align: center;
 }
 
+.calculator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.calculator h1 {
+  text-align: center;
+}
+
+.calculator div  {
+  margin: auto;
+}
+
 .calc {
   border-left: 2px solid black;
   border-right: 2px solid black;

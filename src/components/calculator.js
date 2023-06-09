@@ -17,34 +17,36 @@ const Buttons = () => {
   return (
 
     <>
-      <div className="result">
-        {total}
-        {operation}
-        {next}
-      </div>
-      <div className="buttons">
+      <h1>Let&apos;s do some math</h1>
+      <div>
+        <div className="result">
+          {total}
+          {operation}
+          {next}
+        </div>
+        <div className="buttons">
 
-        <button onClick={Click} type="button" className="greyButtons">AC</button>
-        <button onClick={Click} type="button" className="greyButtons">+/-</button>
-        <button onClick={Click} type="button" className="greyButtons">%</button>
-        <button onClick={Click} type="button" className="orangeButtons">÷</button>
-        <button onClick={Click} type="button" className="greyButtons">7</button>
-        <button onClick={Click} type="button" className="greyButtons">8</button>
-        <button onClick={Click} type="button" className="greyButtons">9</button>
-        <button onClick={Click} type="button" className="orangeButtons">x</button>
-        <button onClick={Click} type="button" className="greyButtons">4</button>
-        <button onClick={Click} type="button" className="greyButtons">5</button>
-        <button onClick={Click} type="button" className="greyButtons">6</button>
-        <button onClick={Click} type="button" className="orangeButtons">-</button>
-        <button onClick={Click} type="button" className="greyButtons">1</button>
-        <button onClick={Click} type="button" className="greyButtons">2</button>
-        <button onClick={Click} type="button" className="greyButtons">3</button>
-        <button onClick={Click} type="button" className="orangeButtons">+</button>
-        <button onClick={Click} type="button" className="greyButton-0">0</button>
-        <button onClick={Click} type="button" className="greyButtons">.</button>
-        <button onClick={Click} type="button" className="orangeButtons">=</button>
+          <button onClick={Click} type="button" className="greyButtons">AC</button>
+          <button onClick={Click} type="button" className="greyButtons">+/-</button>
+          <button onClick={Click} type="button" className="greyButtons">%</button>
+          <button onClick={Click} type="button" className="orangeButtons">÷</button>
+          <button onClick={Click} type="button" className="greyButtons">7</button>
+          <button onClick={Click} type="button" className="greyButtons">8</button>
+          <button onClick={Click} type="button" className="greyButtons">9</button>
+          <button onClick={Click} type="button" className="orangeButtons">x</button>
+          <button onClick={Click} type="button" className="greyButtons">4</button>
+          <button onClick={Click} type="button" className="greyButtons">5</button>
+          <button onClick={Click} type="button" className="greyButtons">6</button>
+          <button onClick={Click} type="button" className="orangeButtons">-</button>
+          <button onClick={Click} type="button" className="greyButtons">1</button>
+          <button onClick={Click} type="button" className="greyButtons">2</button>
+          <button onClick={Click} type="button" className="greyButtons">3</button>
+          <button onClick={Click} type="button" className="orangeButtons">+</button>
+          <button onClick={Click} type="button" className="greyButton-0">0</button>
+          <button onClick={Click} type="button" className="greyButtons">.</button>
+          <button onClick={Click} type="button" className="orangeButtons">=</button>
+        </div>
       </div>
-
     </>
 
   );
