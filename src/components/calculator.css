@@ -51,15 +51,15 @@ button {
   color: black;
 }
 
-.container{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 
-.container h2{
+.container h2 {
   color: #f5913e;
 }
 
@@ -79,16 +79,15 @@ button {
 }
 
 .link {
-  color:#f5913e;
+  color: #f5913e;
   font-size: 18px;
   padding: 0 1.5em;
   margin: 0;
   text-decoration: none;
-
 }
 
 .homeP {
-  width:50%;
+  width: 50%;
   text-align: center;
 }
 
@@ -103,7 +102,7 @@ button {
   text-align: center;
 }
 
-.calculator div  {
+.calculator div {
   margin: auto;
 }
 
