@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-weight: 500;
-  background: #f5f5f5;
 }
 
 .result {
@@ -40,6 +39,8 @@ button {
 }
 
 .quotes {
+  margin: auto;
+  text-align: center;
   min-width: 300px;
   width: 40%;
 }
@@ -48,4 +49,71 @@ button {
   font-weight: 500;
   font-style: italic;
   color: black;
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.container h2{
+  color: #f5913e;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  color: #f5913e;
+  background-color: rgb(246, 241, 241);
+  padding: 20px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link {
+  color:#f5913e;
+  font-size: 18px;
+  padding: 0 1.5em;
+  margin: 0;
+  text-decoration: none;
+
+}
+
+.homeP {
+  width:50%;
+  text-align: center;
+}
+
+.calc {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.cal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70vw;
+  padding: 0 5em;
+}
+
+.math {
+  height: 100%;
+}
+
+.math-text {
+  height: 100%;
+}
+
+.homeContent p {
+  font-size: 18px;
+  font-weight: 600;
 }
